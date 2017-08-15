@@ -1,0 +1,39 @@
+.alert-fixed{
+  position: fixed;
+  /*top: 30px;*/
+  bottom: 40px;
+  left: 25%;
+  width: 50%;
+  z-index: 9999;
+  border-radius: 15px;
+}
+
+
+.img-circle {
+border-radius: 50%;
+position: absolute;
+z-index:99;
+left: 10%;
+bottom: 1%
+}
+
+.profileImg {
+width: 100%;
+position: relative;
+}
+
+#social-icons-set {
+  position: absolute;
+  z-index:90;
+  right: 3%;
+  top: 3%
+}
+
+/*.upload-button {
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+    max-width: 100%;
+    height: 100%;
+    display: block;
+}*/
