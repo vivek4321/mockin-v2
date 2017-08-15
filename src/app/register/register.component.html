@@ -19,7 +19,7 @@
                             <div class="form-group">
                               <input class="form-control" id="name" #userName="ngModel" placeholder="E-mail" type="email" [(ngModel)]="user.username" required autofocus>
                               <span style="color:red" >
-                                <span [hidden]="userName.val id || userName.valid">Email is required.</span>
+                                <span [hidden]="userName.valid || userName.valid">Email is required.</span>
                                 <span [hidden]="userName.error.email">Invalid email address.</span>
 
                               </span>
